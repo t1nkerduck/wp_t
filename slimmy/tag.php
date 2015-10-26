@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying category pages.
+ * The template for displaying tag pages.
  *
  * @package Slimmy
  */
@@ -8,29 +8,18 @@ get_header();
 ?>
 
 <div class="units-row end">
-		<aside class="unit-30 unit-padding">
-			    <?php
-get_sidebar();
-?>
-		</aside>
+	
 	<article class="unit-70">
 		<h2><?php
-single_cat_title('', true);
+single_tag_title();
 ?></h2>
 		<hr>
-		<?php
-$category_description = category_description();
-if (!empty($category_description))
-    echo '<div class="archive-meta">' . $category_description . '</div>';
-get_template_part('loop', 'category');
-?>
-                
-                <?php
+        <?php
 if (have_posts()):
     while (have_posts()):
         the_post();
 ?>
-         
+                
 		<h2><a href="<?php
         the_permalink();
 ?>"><?php
@@ -38,11 +27,11 @@ if (have_posts()):
 ?></a></h2>
 		
 	  	<?php
-        the_content();
+        the_excerpt();
 ?>
 	  	
 	  	<hr>
-	  	
+	
 	<?php
     endwhile;
 else:
@@ -52,10 +41,14 @@ else:
 ?></p>
 	<?php
 endif;
-?>
-									    
+?>									    
 		</article>
-
+		
+		<aside class="unit-30 unit-padding">
+			    <?php
+get_sidebar();
+?>
+		</aside>
 </div>
 </div>
 		

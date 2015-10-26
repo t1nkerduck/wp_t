@@ -34,7 +34,7 @@
 ?>
 				<span class="separator"> | </span>
 					<?php
-        printf(__('Theme by <a href="%1$s">%2$s</a>', 'Bhakail'), esc_url(__('http://localhost/', 'Bhakail')), 'Lady Marta De Lyon');
+        printf(__('Theme by <a href="%1$s">%2$s</a>', 'slimmy'), esc_url(__('http://www.vetrazdesigns.com/wordpress/', 'slimmy')), 'Vetraz Designs');
 ?>
 					</div>
 				<?php

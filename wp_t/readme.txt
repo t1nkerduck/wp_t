@@ -1,8 +1,14 @@
-= Bhakail =
-* by Lady Marta De Lyon
+= Slimmy =
+* by Vetraz
 
-== About Bhakail Theme ==
-The Bhakail Theme found its inception and foundation based upon the excellent Slimmy theme.  More details about the Slimmy theme can be found here: https://wordpress.org/themes/slimmy/
+== About Slimmy Theme ==
+As the name suggests, Slimmy features narrow, slim and clean layout that is perfect for blogs or just about anything else. Built with Kube CSS Framework, Slimmy easily adjusts to screen sizes of various devices. It has several customizable features, such as custom background, custom site logo, custom header, footer widgets and custom navigation with submenu support. Category description is enabled for better SEO. Translation ready. If you need support with this theme, please go to http://wordpress.org/support/theme/slimmy
+
+== Navigation ==
+- Top custom navigation with submenu support is available for the header area
+
+== Translation ==
+Slimmy theme is translation ready.
 
 == License ==
 Unless otherwise specified, all the theme files, scripts and images are licensed under GNU General Public License Version 3, see file license.txt
